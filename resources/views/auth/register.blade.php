@@ -34,11 +34,11 @@
                     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>
             @endif
-            <div class="card mx-auto mt-5 " style="width: 350px;">
+            <div class="card mx-auto mt-1" style="width: 350px;">
                 <form action="{{ route('handle.register') }}" method="POST">
                     @csrf
                     <div class="card-header text-center">
-                        <h4>Espace inscription</h4>
+                        <h4>Espace d'inscription</h4>
                     </div>
                     <div class="card-body">
                         <div class="mb-3">
