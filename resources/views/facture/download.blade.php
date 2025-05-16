@@ -173,8 +173,6 @@
                 <div class="value">{{ $allinfoforpayment->month }} / {{ $allinfoforpayment->year }} </div>
             </div>
 
-
-
         </div>
 
         <div class="last_item">

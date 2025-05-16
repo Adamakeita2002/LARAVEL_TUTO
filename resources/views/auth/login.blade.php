@@ -17,7 +17,11 @@
 
 <body>
     <div class="container">
-        <div class="row">
+        <div class="row mt-5">
+            <div class="col-md-12 text-center">
+                <h1>Application de Gestion Employer</h1>
+                <p>Bienvenue sur notre application de gestion des employés !</p>
+            </div>
             <div class="card mx-auto mt-5" style="width: 350px;">
                 <form action="{{ route('login') }}" method="POST">
                     @csrf
